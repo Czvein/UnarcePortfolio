@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+:root {
+
+     --primary-color: #1d1d1d;
+    --secondary-color: #fff;
+   
+}
+.dark-theme{
+    --primary-color: #eff4fd;
+    --secondary-color: #000000;
+}
+
+#moon{
+    width: 15px;
+    cursor: pointer;
+    opacity: 100%;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: var(--primary-color);
+    position: relative;
+}
+
+
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    position: absolute;
+    width: 700px;
+    cursor: pointer;
+    top: 1%;
+    opacity: 100;
+}
+
+.dots{
+    position: absolute;
+    align-items: flex-end;
+    top: 75%;
+    left: px;
+    width: 20%;
+    height: 100;
+    opacity: 100;
+}
+
+.vein{
+    position: absolute;
+    left: 40%;
+    scale: 20%;
+    opacity: 100%;
+}
+
+.veinn{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    scale: 20%;
+    opacity: 100%;
+}
+
+.circle{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    scale: 20%;
+    opacity: 100%;
+}
+
+.lei{
+    position: absolute;
+    left: 40%;
+    scale: 20%;
+    opacity: 100%;
+}
+
+.cz{
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    scale: 20%;
+    opacity: 100%;
+}
+
+.bilog{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    scale: 20%;
+    opacity: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 208, 0);
+}
+
+.detel{
+    margin-left: 10%;
+    margin-top: 18%;
+    
+}
+
+.detel h1{
+    font-size: 60px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+span{
+    color: #ffc234;
+    
+}
+
+.detel p{
+    color: var(--secondary-color);
+    line-height: 22px;
+}
+
+.detel a{
+    background: var(--secondary-color);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    top: 100px;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s, top 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+
+.Section2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #1a0436;
+    display: block;
+    margin-top: 380px;
+    
+}
+
+.Section2 h2{
+    text-align: center;
+    color: #ffc234;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Section2 p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20;
+    font-weight: bold;
+}
+
+video{
+    padding-left: 70px;
+    border: 6px;
+}
+
+.video h1{
+    position: static;
+    padding-left: 245px;
+    margin-top: 60px;
+    margin-bottom: 20px ;
+    color: #ffc234;
+    font-size: 22px;   
+    text-decoration: none;
+    font-weight: bold;
+     
+}
+
+.video p{
+    position: absolute;
+    padding-left: 100px;
+    font-size: 22px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}
+
